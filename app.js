@@ -27,6 +27,7 @@ btn.addEventListener("click", () => {
         }
         num.value = ""
     }
+    
     num.addEventListener("change", () => {
         result.innerHTML = ""
     })

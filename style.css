@@ -10,7 +10,6 @@ html{
     justify-content: center;
     align-items: center;
     background-color: beige;
-
 }
 
 h1{
@@ -30,9 +29,8 @@ h1{
     align-items: center;
     padding: 20px;
     border-radius: 30px;
-
-
 }
+
 .input{
     display: flex;
     align-items: center;
