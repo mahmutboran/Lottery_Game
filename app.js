@@ -11,16 +11,16 @@ btn.addEventListener("click", () => {
         while (num.value > count) {
             resultNumber = [];
             while (resultNumber.length < 6) {
-                let randomNumber = Math.trunc(Math.random() * 90)
+                let randomNumber = Math.trunc(Math.random() * 90+1)
                 if (resultNumber.includes(randomNumber)) { continue; }
                 else { resultNumber.push(randomNumber) }
             }
             resultNumber7 = [];
-            let randomNumber = Math.trunc(Math.random() * 90)
+            let randomNumber = Math.trunc(Math.random() * 90+1)
             if (resultNumber.includes(randomNumber)) { continue; }
             else { resultNumber7.push(randomNumber) }
 
-            let randomNumber8 = Math.trunc(Math.random() * 90)
+            let randomNumber8 = Math.trunc(Math.random() * 90+1)
             resultNumber7.push(randomNumber8);
             count += 1
             result.innerHTML += resultNumber.sort(function (a, b) { return a - b }).join(" , ") + " | " + resultNumber7.join(" | ") + "<hr>"
